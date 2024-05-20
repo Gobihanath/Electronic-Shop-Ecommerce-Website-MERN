@@ -1,7 +1,7 @@
 .header {
     height: 34vw;
     margin:30px auto ;
-    background: url('E:\MERN\Electronics-Shop\frontend\src\Assets1\header8.jpg') no-repeat ;
+    background: url('E:\MERN\Electronics-Shop\frontend\src\Assets1\header_7.jpg') no-repeat ;
     background-size: cover;
     position: relative;
     border-radius: 15px;
@@ -26,13 +26,15 @@
     font-weight: 700;
     font-size: max(3.5vw,15px);
     max-width: 70%;
-    color: rgb(4, 1, 13);
+    color: rgb(5, 42, 34);
    
 }
 
 .header-contents p{
     color: aliceblue;
     font-size: 1.2vw;
+    text-align: justify;
+    max-width: 65%;
 }
 
 .header-contents button{
