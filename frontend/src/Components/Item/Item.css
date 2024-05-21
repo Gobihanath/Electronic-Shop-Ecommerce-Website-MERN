@@ -14,6 +14,7 @@
 
 .f-item-img-container {
     flex-shrink: 0;
+    position: relative;
 }
 
 .f-item-image {
@@ -56,4 +57,31 @@
     font-weight: 500;
     margin-top: auto; /* Push item-price to the bottom */
     margin-bottom: 10px; /* Optional, add margin at the bottom for spacing */
+}
+
+.f-item-img-container .add{
+    width: 35px;
+    position:absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.f-item-counter{
+    position: absolute;
+    bottom: 15px;
+    height: 20px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 6px;
+    border-radius: 50px;
+    background-color: rgb(240, 231, 231);
+}
+
+.f-item-counter img{
+    width: 20px;
+
 }

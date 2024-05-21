@@ -202,71 +202,71 @@ export const menu_list = [
 
 export const item_list = [
     {
-        _id: "1",
+        id: "1",
         name: "HP Notebook",
         image: lap_1,
         price: 320000,
         description: "Intel® Core™ i5-1235U processor (12 MB Smart Cache, 1.3 GHz Performance-core with Intel® Turbo Boost Technology 2.0 up to 4.4 GHz)",
-        category: "Laptop"
+        category: "Laptops"
     },
     {
-        _id: "2",
+        id: "2",
         name: "Lenovo 12th Gen i7 - 1255U IdeaPad Flex5 4IAU7",
         image: lap_2,
         price: 290000,
         description: "Lenovo IdeaPad Flex5 4IAU7 - 12th Gen i7 - 1255U The Lenovo IdeaPad Flex 5 4IAU7",
-        category: "Laptop"
+        category: "Laptops"
     }, {
-        _id: "3",
+        id: "3",
         name: "Asus ProArt Studiobook 16 3D",
         image: lap_3,
         price: 619000,
         description: "The new ProArt Studiobook 16 3D OLED mobile workstation transcends the ordinary, and goes far beyond the extraordinary. ",
-        category: "Laptop"
+        category: "Laptops"
     }, {
-        _id: "4",
+        id: "4",
         name: "Asus ZenBook Pro Duo 15",
         image: lap_4,
         price: 399000,
         description: "ZenBook Pro Duo 15 OLED lets you get things done in style: calmly, efficiently, and with zero fuss. ",
-        category: "Laptop"
+        category: "Laptops"
     }, {
-        _id: "5",
+        id: "5",
         name: "Iphone 14 Pro Max 256GB",
         image: phone_1,
         price: 299000,
         description: "Apple iPhone 14 Pro Max 256GB - Deep Purple (Cable Only)",
-        category: "Mobilephones"
+        category: "Mobile Phones"
     }, {
-        _id: "6",
+        id: "6",
         name: "SAMSUNG GALAXY A54 5G 8+256GB BLACK MOBILEPeri Peri Rolls",
         image: phone_2,
         price: 170000,
         description: "Processor	CPU Speed 2.4GHz,2GHz CPU TypeOcta-Core Display	Resolution (Main Display)1080 x 2340 (FHD+)",
-        category: "Mobilephones"
+        category: "Mobile Phones"
     }, {
-        _id: "7",
+        id: "7",
         name: "Samsung Galaxy S24 Plus Black",
         image: phone_3,
         price: 208000,
         description: "Samsung Galaxy S24 Plus Black 8 256",
-        category: "Mobilephones"
+        category: "Mobile Phones"
     }, {
-        _id: "8",
+        id: "8",
         name: "iPhone SE 3 64GB - Midnight",
         image: phone_4,
         price: 150000,
         description: "iPhone SE 3 64GB - Midnight 4 128 cable only",
-        category: "Mobilephones"
+        category: "Mobile Phones"
     }, {
-        _id: "9",
+        id: "9",
         name: "Panasonic 65 4K UHD Android Smart LED TV",
         image: tv_1,
         price: 140000,
         description: "Panasonic TVs from Softlogic gives the best entertainment experience with outstanding picture and sound quality.",
         category: "TV"
     }, {
-        _id: "10",
+        id: "10",
         name: "Samsung 75 CU8000 Crystal UHD 4K Smart TV",
         image: tv_2,
         price: 222000,
@@ -274,14 +274,14 @@ export const item_list = [
         category: "TV"
     }, 
     {
-        _id: "11",
+        id: "11",
         name: "Softlogic PRIZM 32 HD LED TV",
         image: tv_3,
         price: 109000,
         description: "Softlogic PRIZM TVs from Softlogic gives the best entertainment experience with outstanding picture and sound quality. ",
         category: "TV"
     }, {
-        _id: "12",
+        id: "12",
         name: "WALTON 32 HD LED TV",
         image: tv_4,
         price: 120000,
@@ -290,7 +290,7 @@ export const item_list = [
     },
 
     {
-        _id: "13",
+        id: "13",
         name: "Canon 500D",
         image: cam_1,
         price: 120000,
@@ -298,21 +298,21 @@ export const item_list = [
         category: "Camera"
     },
     {
-        _id: "14",
+        id: "14",
         name: "Canon 9D",
         image: cam_2,
         price: 185000,
         description: "Canon EOS 9D 24.1MP Digital SLR Camera (Black) With 18-55 And 55-250mm Is II Lens",
         category: "Camera"
     }, {
-        _id: "15",
+        id: "15",
         name: "Sony EOS 1500D",
         image: cam_3,
         price: 160000,
         description: "Sony EOS 1500D DSLR Camera Body+ 18-55 Mm IS II Lens",
         category: "Camera"
     }, {
-        _id: "16",
+        id: "16",
         name: "Nikon D5300",
         image: cam_4,
         price: 240000,
@@ -320,35 +320,35 @@ export const item_list = [
         category: "Camera"
     }, 
  {
-        _id: "17",
+        id: "17",
         name: "Samsung Double Door Refrigerator - 253L - No Frost Inverter - Blue",
         image: frg_1,
         price: 140000,
         description: "Samsung Double Door Refrigerator from Softlogic keeps your food fresh and safe for a longer period.",
         category: "Fridge"
     }, {
-        _id: "18",
+        id: "18",
         name: "Samsung Side By Side Refrigerator - 670L - Inverter",
         image: frg_2,
         price: 120000,
         description: "Samsung Side By Side Refrigerator - 670L - Inverter",
         category: "Fridge"
     }, {
-        _id: "19",
+        id: "19",
         name: "Samsung Double Door Refrigerator",
         image: frg_3,
         price: 205000,
         description: "Samsung Double Door Refrigerator - 345L - No Frost Inverter",
         category: "Fridge"
     }, {
-        _id: "20",
+        id: "20",
         name: "Whirlpool Double Door Refrigerator",
         image: frg_4,
         price: 153000,
         description: "Whirlpool Double Door Refrigerator - 265L - No Frost Inverter",
         category: "Fridge"
     },{
-        "_id": "21",
+        id: "21",
         "name": "Anker PowerBank 10000mAh",
         "image": powerbank_1,
         "price": 2500,
@@ -356,7 +356,7 @@ export const item_list = [
         "category": "PowerBanks"
     },
     {
-        "_id": "22",
+        "id": "22",
         "name": "Samsung PowerBank 20000mAh",
         "image": powerbank_2,
         "price": 3500,
@@ -364,7 +364,7 @@ export const item_list = [
         "category": "PowerBanks"
     },
     {
-        "_id": "23",
+        "id": "23",
         "name": "Xiaomi PowerBank 5000mAh",
         "image": powerbank_3,
         "price": 1500,
@@ -372,7 +372,7 @@ export const item_list = [
         "category": "PowerBanks"
     },
     {
-        "_id": "24",
+        "id": "24",
         "name": "Belkin PowerBank 15000mAh",
         "image": powerbank_4,
         "price": 3000,
@@ -380,7 +380,7 @@ export const item_list = [
         "category": "PowerBanks"
     },
     {
-        "_id": "25",
+        "id": "25",
         "name": "Apple Watch Series 7",
         "image": smartwatch_1,
         "price": 3990,
@@ -388,7 +388,7 @@ export const item_list = [
         "category": "SmartWatches"
     },
     {
-        "_id": "26",
+        "id": "26",
         "name": "Samsung Galaxy Watch 4",
         "image": smartwatch_2,
         "price": 24900,
@@ -396,7 +396,7 @@ export const item_list = [
         "category": "SmartWatches"
     },
     {
-        "_id": "27",
+        "id": "27",
         "name": "Fitbit Versa 3",
         "image": smartwatch_3,
         "price": 22900,
@@ -404,7 +404,7 @@ export const item_list = [
         "category": "SmartWatches"
     },
     {
-        "_id": "28",
+        "id": "28",
         "name": "Garmin Forerunner 45",
         "image": smartwatch_4,
         "price": 19900,
@@ -412,39 +412,39 @@ export const item_list = [
         "category": "SmartWatches"
     },
     {
-        "_id": "29",
+        "id": "29",
         "name": "LG Front Load Washing Machine",
         "image": washing_machine_1,
         "price": 59900,
         "description": "6 Motion Direct Drive Technology.",
-        "category": "Washing Machine"
+        "category": "Washing Machines"
     },
     {
-        "_id": "30",
+        "id": "30",
         "name": "Samsung Top Load Washing Machine",
         "image": washing_machine_2,
         "price": 49900,
         "description": "Wobble Technology.",
-        "category": "Washing Machine"
+        "category": "Washing Machines"
     },
     {
-        "_id": "31",
+        "id": "31",
         "name": "Bosch Fully Automatic Washing Machine",
         "image": washing_machine_3,
         "price": 649000,
         "description": "EcoSilence Drive.",
-        "category": "Washing Machine"
+        "category": "Washing Machines"
     },
     {
-        "_id": "32",
+        "id": "32",
         "name": "Whirlpool Semi-Automatic Washing Machine",
         "image": washing_machine_4,
         "price": 299000,
         "description": "3 Wash Programs.",
-        "category": "Washing Machine"
+        "category": "Washing Machines"
     },
     {
-        "_id": "33",
+        "id": "33",
         "name": "Sony WH-1000XM4 Headphones",
         "image": headphones_1,
         "price": 34900,
@@ -452,7 +452,7 @@ export const item_list = [
         "category": "HeadPhones & Speakers"
     },
     {
-        "_id": "34",
+        "id": "34",
         "name": "JBL Flip 5 Speaker",
         "image": headphones_2,
         "price": 119000,
@@ -460,7 +460,7 @@ export const item_list = [
         "category": "HeadPhones & Speakers"
     },
     {
-        "_id": "35",
+        "id": "35",
         "name": "Bose QuietComfort 35 II",
         "image": headphones_3,
         "price": 299000,
@@ -468,7 +468,7 @@ export const item_list = [
         "category": "HeadPhones & Speakers"
     },
     {
-        "_id": "36",
+        "id": "36",
         "name": "Apple AirPods Pro",
         "image": headphones_4,
         "price": 24900,
@@ -476,71 +476,71 @@ export const item_list = [
         "category": "HeadPhones & Speakers"
     },
     {
-        "_id": "37",
+        "id": "37",
         "name": "Philips Steam Iron",
         "image": iron_box_1,
         "price": 4500,
         "description": "Non-Stick Soleplate.",
-        "category": "Iron box"
+        "category": "Iron Box"
     },
     {
-        "_id": "38",
+        "id": "38",
         "name": "Morphy Richards Steam Iron",
         "image": iron_box_2,
         "price": 5000,
         "description": "Vertical Steaming.",
-        "category": "Iron box"
+        "category": "Iron Box"
     },
     {
-        "_id": "39",
+        "id": "39",
         "name": "Bajaj Dry Iron",
         "image": iron_box_3,
         "price": 2500,
         "description": "Lightweight and Easy to Use.",
-        "category": "Iron box"
+        "category": "Iron Box"
     },
     {
-        "_id": "40",
+        "id": "40",
         "name": "Tefal Ceramic Iron",
         "image": iron_box_4,
         "price": 3500,
         "description": "Durable Ceramic Soleplate.",
-        "category": "Iron box"
+        "category": "Iron Box"
     },
     {
-        "_id": "41",
+        "id": "41",
         "name": "Philips Electrical Kettle",
         "image": kettle_1,
         "price": 2500,
         "description": "Fast Boil and Auto Shut-Off.",
-        "category": "Electrical Kettle"
+        "category": "Electric Kettle"
     },
     {
-        "_id": "42",
+        "id": "42",
         "name": "Prestige Electrical Kettle",
         "image": kettle_2,
         "price": 3000,
         "description": "Illuminated LED Indicator.",
-        "category": "Electrical Kettle"
+        "category": "Electric Kettle"
     },
     {
-        "_id": "43",
+        "id": "43",
         "name": "Morphy Richards Electrical Kettle",
         "image": kettle_3,
         "price": 2000,
         "description": "Compact and Lightweight Design.",
-        "category": "Electrical Kettle"
+        "category": "Electric Kettle"
     },
     {
-        "_id": "44",
+        "id": "44",
         "name": "Havells Electrical Kettle",
         "image": kettle_4,
         "price": 2200,
         "description": "360-Degree Swivel Base.",
-        "category": "Electrical Kettle"
+        "category": "Electric Kettle"
     },
     {
-        "_id": "45",
+        "id": "45",
         "name": "Usha Desk Fan",
         "image": fan_1,
         "price": 10000,
@@ -548,7 +548,7 @@ export const item_list = [
         "category": "Fan"
     },
     {
-        "_id": "46",
+        "id": "46",
         "name": "Orient Ceiling Fan",
         "image": fan_2,
         "price": 8000,
@@ -556,7 +556,7 @@ export const item_list = [
         "category": "Fan"
     },
     {
-        "_id": "47",
+        "id": "47",
         "name": "Bajaj Tower Fan",
         "image": fan_3,
         "price": 5000,
@@ -564,7 +564,7 @@ export const item_list = [
         "category": "Fan"
     },
     {
-        "_id": "48",
+        "id": "48",
         "name": "Havells Pedestal Fan",
         "image": fan_4,
         "price": 35000,
@@ -572,7 +572,7 @@ export const item_list = [
         "category": "Fan"
     },
     {
-        "_id": "49",
+        "id": "49",
         "name": "LG Portable Air Conditioner - 10,000 BTU",
         "image": ac_1,
         "price": 300000,
@@ -580,7 +580,7 @@ export const item_list = [
         "category": "Air Conditioner"
     },
     {
-        "_id": "50",
+        "id": "50",
         "name": "Daikin Window Air Conditioner - Energy Star",
         "image": ac_2,
         "price": 250000,
@@ -588,7 +588,7 @@ export const item_list = [
         "category": "Air Conditioner"
     },
     {
-        "_id": "51",
+        "id": "51",
         "name": "Hitachi Split Air Conditioner - 1.5 Ton",
         "image": ac_3,
         "price": 40000,
@@ -596,7 +596,7 @@ export const item_list = [
         "category": "Air Conditioner"
     },
     {
-        "_id": "52",
+        "id": "52",
         "name": "Blue Star Portable Air Conditioner - 8,000 BTU",
         "image": ac_4,
         "price": 270000,
@@ -604,68 +604,68 @@ export const item_list = [
         "category": "Air Conditioner"
     },
     {
-        "_id": "53",
+        "id": "53",
         "name": "Honda Portable Power Generator - 2000W",
         "image": generator_1,
         "price": 150000,
         "description": "Lightweight and Fuel Efficient.",
-        "category": "Power Generator"
+        "category": "Power Generators"
     },
     {
-        "_id": "54",
+        "id": "54",
         "name": "Generac Standby Generator - 10,000W",
         "image": generator_2,
         "price": 120000,
         "description": "Automatic Transfer Switch.",
-        "category": "Power Generator"
+        "category": "Power Generators"
     },
 
     {
-        "_id": "55",
+        "id": "55",
         "name": "Yamaha Inverter Generator - 3500W",
         "image": generator_3,
         "price": 70000,
         "description": "Quiet Operation and Parallel Capable.",
-        "category": "Power Generator"
+        "category": "Power Generators"
     },
     {
-        "_id": "56",
+        "id": "56",
         "name": "Briggs & Stratton Portable Power Generator - 5000W",
         "image": generator_4,
         "price": 400000,
         "description": "Durable and Easy to Transport.",
-        "category": "Power Generator"
+        "category": "Power Generators"
     },
     {
-        "_id": "57",
+        "id": "57",
         "name": "Instant Pot Electric Cooker - 6 Quart",
         "image": cooker_1,
         "price": 6000,
         "description": "Programmable Slow Cooker.",
-        "category": "Electric Cooker"
+        "category": "Electric Cookers"
     },
     {
-        "_id": "58",
+        "id": "58",
         "name": "Panasonic Electric Cooker - Rice Cooker",
         "image": cooker_2,
         "price": 4000,
         "description": "Non-Stick Pot and Keep Warm Function.",
-        "category": "Electric Cooker"
+        "category": "Electric Cookers"
     },
     {
-        "_id": "59",
+        "id": "59",
         "name": "Prestige Electric Cooker - Pressure Cooker",
         "image": cooker_3,
         "price": 9000,
         "description": "Multi-Functional and Fast Cooking.",
-        "category": "Electric Cooker"
+        "category": "Electric Cookers"
     },
     {
-        "_id": "60",
+        "id": "60",
         "name": "Hamilton Beach Electric Cooker - Steamer",
         "image": cooker_4,
         "price": 3500,
         "description": "Three-Tier Stackable Baskets.",
-        "category": "Electric Cooker"
+        "category": "Electric Cookers"
     }
 ]

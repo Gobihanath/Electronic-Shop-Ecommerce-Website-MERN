@@ -12,8 +12,13 @@ const ItemDisplay = ({category}) => {
     <div className='item-display' id='item-display'>
         <h2>Top Items</h2>
         <div className='item-display-list'>
-          {item_list.map((item,index)=>{
-            return <Item key={index} id={item.id} name={item.name} description={item.description} price={item.price} image={item.image}/>
+        {item_list.map((item,index)=>{           
+            if(category==="All" || category===item.category){
+
+              return <Item key={index} id={item.id} name={item.name} description={item.description} price={item.price} image={item.image}/>
+            }
+
+            
 
           })}
         </div>
