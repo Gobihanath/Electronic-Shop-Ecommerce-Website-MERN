@@ -59,3 +59,12 @@
     border:1px solid rgb(35, 247, 130);
     padding: 2px;
 }
+
+
+@media(max-width:1050px){
+    .explore-menu-text{
+        max-width: 100%;
+        font-size: 14px;
+
+    }
+}

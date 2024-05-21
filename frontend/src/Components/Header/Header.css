@@ -47,3 +47,57 @@
     border-radius: 10px;
     
 }
+
+
+
+
+@media(max-width:1050px){
+
+
+    .header-contents{
+        max-width: 45%;
+    }
+    .header-contents h2{
+        font-size: 20px;
+    }
+
+}
+
+
+@media(max-width:750px){
+    
+
+    .header-contents{
+        max-width: 45%;
+    }
+
+    .header-contents h2{
+        font-size: 15px;
+    }
+
+    .header-contents p{
+        display: none;
+    }
+    .header-contents button{
+        padding: 2vw 4vw;
+    }
+}
+
+@media(max-width:450px){
+    
+
+    .header-contents{
+        max-width: 45%;
+    }
+
+    .header-contents h2{
+        font-size: 8px;
+    }
+
+    .header-contents p{
+        display: none;
+    }
+    .header-contents button{
+        padding: 2vw 4vw;
+    }
+}

@@ -1,13 +1,13 @@
 .navbar{
     padding:20px, 0px ;
     display: flex;
+    margin-top: 20px;
     justify-content: space-between;
     align-items: center;
 }
 
 .navbar .logo{
     width: 200px;
-    height: 100px;
 }
 
 .navbar-menu{
@@ -15,9 +15,19 @@
     justify-content: space-between;
     list-style: none;
     gap: 20px;
-    color:#49557e;
+    color:#1c202e;
     font-size: 18px;
 
+}
+
+.navbar-menu a{
+    text-decoration: none;
+}
+
+
+.navbar-menu a:visited { 
+    text-decoration: none; 
+    color: rgb(59, 68, 74);
 }
 
 .navbar-right{
@@ -34,10 +44,10 @@
 .navbar button{
     background: transparent;
     font-size: 16px;
-    color:#456ae3 ;
-    border: 1px solid rgb(6, 41, 157) ;
+    color:#0b1122 ;
+    border: 1px solid rgb(19, 29, 62) ;
     padding: 10px 30px;
-    border-radius: 50px;
+    border-radius: 25px;
     cursor: pointer;
     transition: 0.3s;
 }
@@ -45,7 +55,7 @@
 
 
 .navbar button:hover {
-    background-color: #bdcef5;
+    background-color: #a5c2d5;
 
 }
 
@@ -71,4 +81,66 @@
     top: -8px;
     right: -8px;
 
+}
+
+
+@media(max-width:1050px){
+    .navbar.logo{
+        width: 140px;
+    }
+    .navbar-menu{
+        gap: 20px;
+        font-size: 17px;
+
+    }
+    .navbar-right{
+        gap:30px;
+
+    }
+
+    .navbar-right img{
+        width: 22px;
+
+    }
+
+    .navbar-right button{
+        padding: 8px 25px;
+    }
+
+}
+
+
+@media(max-width:900px){
+    .navbar.logo{
+        width: 120px;
+    }
+    .navbar-menu{
+        gap: 15px;
+        font-size: 16px;
+
+    }
+    .navbar-right{
+        gap:20px;
+
+    }
+
+    .navbar-right img{
+        width: 20px;
+
+    }
+
+    .navbar-right button{
+        padding: 7px 20px;
+        font-size: 15px;
+    }
+
+}
+
+@media(max-width:750px){
+    
+    .navbar-menu{
+       display: none;
+
+    }
+    
 }
