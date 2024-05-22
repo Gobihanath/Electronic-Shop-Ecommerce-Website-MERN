@@ -241,7 +241,7 @@ export const item_list = [
         category: "Mobile Phones"
     }, {
         id: "6",
-        name: "SAMSUNG GALAXY A54 5G 8+256GB BLACK MOBILEPeri Peri Rolls",
+        name: "SAMSUNG GALAXY A54 5G 8+256GB BLACK ",
         image: phone_2,
         price: 170000,
         description: "Processor	CPU Speed 2.4GHz,2GHz CPU TypeOcta-Core Display	Resolution (Main Display)1080 x 2340 (FHD+)",
