@@ -1,6 +1,7 @@
 import express from "express";
 import cors from "cors"
-
+import { connectDB } from "./config/db.js";
+import itemRouter from "./routes/itemRoute.js";
 
 //app config
 
@@ -9,7 +10,30 @@ const port = 4000
 
 //middleware
 
-app.use(express.js)
+app.use(express.json())
 app.use(cors())
 
-app.get()
+//db connection
+
+connectDB();
+
+//api endpoints
+
+
+app.use("/api/item",itemRouter)
+
+app.use("/images",express.static('uploads'))
+
+
+
+
+app.get("/",(req,res) => {
+    res.send("API Working")
+})
+
+app.listen(port,()=>{
+    console.log(`Server Started on http://localhost:${port}`)
+})
+
+
+//mongodb+srv://gobihanath:gobi077007@cluster0.jxgt06k.mongodb.net/?
