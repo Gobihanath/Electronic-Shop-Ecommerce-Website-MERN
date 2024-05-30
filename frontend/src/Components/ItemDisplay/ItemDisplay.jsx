@@ -15,7 +15,7 @@ const ItemDisplay = ({category}) => {
         {item_list.map((item,index)=>{           
             if(category==="All" || category===item.category){
 
-              return <Item key={index} id={item.id} name={item.name} description={item.description} price={item.price} image={item.image}/>
+              return <Item key={index} id={item._id} name={item.name} description={item.description} price={item.price} image={item.image}/>
             }
 
             

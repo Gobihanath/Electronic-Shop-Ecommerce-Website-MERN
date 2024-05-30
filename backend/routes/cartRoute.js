@@ -1,16 +1,16 @@
-// import express from "express";
-// import { addToCart,removeFromCart,getCart } from "../controllers/cartController.js";
-// import authMiddleWare from "../middleware/auth.js";
+import express from "express";
+import { addToCart,removeFromCart,getCart } from "../controllers/cartController.js";
+import authMiddleWare from "../middleware/auth.js";
 
-// const cartRouter = express.Router();
+const cartRouter = express.Router();
 
-// // api endpoints
-// cartRouter.post("/add",authMiddleWare,addToCart)
-// cartRouter.post("/remove",authMiddleWare,removeFromCart)
-// cartRouter.post("/get",authMiddleWare,getCart)
+// api endpoints
+cartRouter.post("/add",authMiddleWare,addToCart)
+cartRouter.post("/remove",authMiddleWare,removeFromCart)
+cartRouter.post("/get",authMiddleWare,getCart)
 
 
-// export default cartRouter;
+export default cartRouter;
 
 
 

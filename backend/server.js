@@ -4,7 +4,8 @@ import { connectDB } from "./config/db.js";
 import itemRouter from "./routes/itemRoute.js";
 import userRouter from "./routes/userRoute.js";
 import 'dotenv/config'
-// import cartRouter from "./routes/cartRoute.js";
+import cartRouter from "./routes/cartRoute.js";
+import orderRouter from "./routes/orderRoute.js";
 
 //app config
 
@@ -26,7 +27,8 @@ connectDB();
 app.use("/api/item",itemRouter)
 app.use("/images",express.static('uploads'))
 app.use("/api/user",userRouter)
-// app.use("/api/cart",cartRouter)
+app.use("/api/cart",cartRouter)
+app.use("/api/order",orderRouter)
 
 
 

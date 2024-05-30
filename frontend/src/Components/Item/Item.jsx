@@ -14,14 +14,14 @@ const Item = ({id,name,price,description,image}) => {
 
   //const [itemCount,setItemCount]=useState(0)
 
-  const{cartItems,addToCart,removeFromCart} = useContext(StoreContext);
+  const{cartItems,addToCart,removeFromCart,url} = useContext(StoreContext);
 
    
   return (
     <div className='f-item'>
 
             <div className='f-item-img-container'>
-              <img className='f-item-image' src={image} alt=''/>
+              <img className='f-item-image' src={url+"/images/"+image} alt=''/>
               {
                 !cartItems[id] ?
                 <img className='add' onClick={()=>addToCart(id)} src={assets.add_icon_white} alt=''/>
