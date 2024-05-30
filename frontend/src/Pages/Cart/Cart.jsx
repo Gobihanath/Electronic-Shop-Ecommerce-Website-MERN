@@ -29,6 +29,7 @@ const Cart = () => {
           {item_list.map((item,index)=>{
             if(cartItems[item.id]>0){
               return(
+                
                 <div>
 
                 
