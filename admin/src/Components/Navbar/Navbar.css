@@ -10,6 +10,11 @@
     width: max(20%,80px);
 }
 
+.navbar h1{
+    font-weight: 600;
+    color: rgb(167, 173, 169);
+    font-style: italic;
+}
 .navbar .profile{
     width: 40px;
     height: 40px;
