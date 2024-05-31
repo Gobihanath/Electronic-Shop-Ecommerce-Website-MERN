@@ -39,12 +39,12 @@
 
 .header-contents button{
     border: none;
-    color: #747474;
+    color: #c5cdcd;
     font-weight: 500;
-    padding: 1vw, 2.3vw;
-    background-color: white;
+    padding: 5px;
+    background-color: rgb(36, 35, 35);
     font-size: max(1vw,13px);
-    border-radius: 10px;
+    border-radius: 4px;
     
 }
 
